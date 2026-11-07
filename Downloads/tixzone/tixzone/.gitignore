@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Uploaded files (jangan commit bukti pembayaran user)
+/uploads/bukti_bayar/*
+!/uploads/bukti_bayar/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
