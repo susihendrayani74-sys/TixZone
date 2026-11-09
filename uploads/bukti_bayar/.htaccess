@@ -1,0 +1,4 @@
+# Cegah eksekusi script di folder upload (Apache 2.4)
+<FilesMatch "\.(php|phtml|phar)$">
+  Require all denied
+</FilesMatch>
